@@ -1,0 +1,27 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-astralisgptproxy-staging-122604-authRole",
+      "UnauthRoleArn": "arn:aws:iam::449178946020:role/amplify-astralisgptproxy-staging-122604-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::449178946020:role/amplify-astralisgptproxy-staging-122604-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-astralisgptproxy-staging-122604-deployment",
+      "UnauthRoleName": "amplify-astralisgptproxy-staging-122604-unauthRole",
+      "StackName": "amplify-astralisgptproxy-staging-122604",
+      "StackId": "arn:aws:cloudformation:us-east-1:449178946020:stack/amplify-astralisgptproxy-staging-122604/b0c8a450-6055-11ee-bde6-0ad1d5406cb1",
+      "AmplifyAppId": "d3qnqhfa3cpmwm",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-astralisgptproxy-staging-122604-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "astralisgptproxy": {}
+      },
+      "function": {
+        "authenticate": {
+          "authAstralisgptproxyUserpoolid": "test"
+        },
+        "chatproxy": {}
+      }
+    }
+  }
+}
